@@ -45,10 +45,10 @@ const messages = defineMessages({
   },
   sortFilterStatus: {
     id: 'discussions.learner.sortFilterStatus',
-    defaultMessage: `All learners sorted by {sort, select,
-      flagged {reported activity}
-      activity {most activity}
-      other {{sort}}
+    defaultMessage: `Todos los estudiantes ordenados por {sort, select,
+      marcados {reported activity}
+      actividad {most activity}
+      otro {{sort}}
     }`,
     description: 'Text for current selected learners filter',
   },

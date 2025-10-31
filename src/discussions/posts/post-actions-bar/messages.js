@@ -7,23 +7,23 @@ const messages = defineMessages({
   },
   searchAllPosts: {
     id: 'discussions.posts.actionBar.searchAllPosts',
-    defaultMessage: 'Search all posts',
+    defaultMessage: 'Buscar todos los mensajes',
     description: 'Placeholder text in search box',
   },
   search: {
     id: 'discussions.posts.actionBar.search',
     defaultMessage: `{page, select,
-      topics {Search topics}
-      posts {Search all posts}
-      learners {Search learners}
-      myPosts {Search all posts}
-      other {{page}}
+      temas {Search topics}
+      mensajes {Search all posts}
+      estudiantes {Search learners}
+      mis mensajes {Search all posts}
+      otros {{page}}
     }`,
     description: 'Placeholder text in search box',
   },
   searchInfo: {
     id: 'discussions.actionBar.searchInfo',
-    defaultMessage: 'Showing {count} results for "{text}"',
+    defaultMessage: 'Showing {count} results for \"{text}\"',
     description: 'Message displayed when user performs a search',
   },
   searchRewriteInfo: {
