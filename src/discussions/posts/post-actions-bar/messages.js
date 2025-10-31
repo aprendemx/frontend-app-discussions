@@ -1,56 +1,67 @@
 import { defineMessages } from '@edx/frontend-platform/i18n';
 
 const messages = defineMessages({
-  title: {
-    id: 'discussions.app.title',
-    defaultMessage: 'Discussions',
-  },
-  searchAllPosts: {
-    id: 'discussions.posts.actionBar.searchAllPosts',
-    defaultMessage: 'Search all posts',
-    description: 'Placeholder text in search box',
-  },
-  search: {
-    id: 'discussions.posts.actionBar.search',
-    defaultMessage: `{page, select,
-      topics {Search topics}
-      posts {Search all posts}
-      learners {Search learners}
-      myPosts {Search all posts}
-      other {{page}}
+    reported: {
+        id: 'discussions.learner.reported',
+        defaultMessage: '{reported} reported',
+    },
+    previouslyReported: {
+        id: 'discussions.learner.previouslyReported',
+        defaultMessage: '{previouslyReported} previously reported',
+    },
+    lastActive: {
+        id: 'discussions.learner.lastLogin',
+        defaultMessage: 'Last active {lastActiveTime}',
+    },
+    loadMore: {
+        id: 'discussions.learner.loadMostLearners',
+        defaultMessage: 'Load more',
+        description: 'Text on button for loading more learners',
+    },
+    back: {
+        id: 'discussions.learner.back',
+        defaultMessage: 'Back',
+        description: 'Text on button for back to learners list',
+    },
+    activityForLearner: {
+        id: 'discussions.learner.activityForLearner',
+        defaultMessage: 'Activity for {username}',
+        description: 'Text for learners post header',
+    },
+    mostActivity: {
+        id: 'discussions.learner.mostActivity',
+        defaultMessage: 'Most activity',
+        description: 'Text for learners sorting by most activity',
+    },
+    reportedActivity: {
+        id: 'discussions.learner.reportedActivity',
+        defaultMessage: 'Reported activity',
+        description: 'Text for learners sorting by reported activity',
+    },
+    recentActivity: {
+        id: 'discussions.learner.recentActivity',
+        defaultMessage: 'Recent activity',
+        description: 'Text for learners sorting by recent activity',
+    },
+    sortFilterStatus: {
+        id: 'discussions.learner.sortFilterStatus',
+        defaultMessage: `Todos los estudiantes ordenados por {sort, select,
+      marcados {reported activity}
+      actividad {most activity}
+      otro {{sort}}
     }`,
-    description: 'Placeholder text in search box',
-  },
-  searchInfo: {
-    id: 'discussions.actionBar.searchInfo',
-    defaultMessage: 'Showing {count} results for "{text}"',
-    description: 'Message displayed when user performs a search',
-  },
-  searchRewriteInfo: {
-    id: 'discussions.actionBar.searchRewriteInfo',
-    defaultMessage: 'No results found for "{searchString}". Showing {count} results for "{textSearchRewrite}".',
-    description: 'Message displayed when user performs a search and search query is rewritten because matching results are not found',
-  },
-  searchInfoSearching: {
-    id: 'discussions.actionBar.searchInfoSearching',
-    defaultMessage: 'Searching...',
-    description: 'Message displayed when user performs a search',
-  },
-  clearSearch: {
-    id: 'discussions.actionBar.clearSearch',
-    defaultMessage: 'Clear results',
-    description: 'Button to clear search',
-  },
-  addAPost: {
-    id: 'discussion.posts.actionBar.add',
-    defaultMessage: 'Add a post',
-    description: 'Button to add a new discussion post',
-  },
-  close: {
-    id: 'discussion.posts.actionBar.close',
-    defaultMessage: 'Close',
-    description: 'Alt description for close icon button for closing in-context sidebar.',
-  },
+        description: 'Text for current selected learners filter',
+    },
+    allActivity: {
+        id: 'discussion.learner.allActivity',
+        defaultMessage: 'All activity',
+        description: 'Tooltip text for all activity icon',
+    },
+    posts: {
+        id: 'discussion.learner.posts',
+        defaultMessage: 'Posts',
+        description: 'Tooltip text for all posts icon',
+    },
 });
 
 export default messages;
