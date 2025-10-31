@@ -14,11 +14,11 @@ const messages = defineMessages({
     search: {
         id: 'discussions.posts.actionBar.search',
         defaultMessage: `{page, select,
-      temas {Search topics}
-      mensajes {Search all posts}
-      estudiantes {Search learners}
-      mis mensajes {Search all posts}
-      otros {{page}}
+      topics {Buscar temas}
+      posts {Buscar en todos los mensajes}
+      learners {Buscar en todos los estudiantes}
+      myPosts {Buscar en mis mensajes}
+      other {{page}}
     }`,
         description: 'Placeholder text in search box',
     },
